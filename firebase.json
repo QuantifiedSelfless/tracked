@@ -1,0 +1,29 @@
+{
+  "firebase": "qself",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ],
+  "rewrites": [{
+    "source": "dev/**",
+    "destination": "/index-dev.html"
+  },{
+    "source": "**",
+    "destination": "/index.html"
+  }],
+  "headers": [ {
+      "source" : "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
+      "headers" : [ {
+        "key" : "Access-Control-Allow-Origin",
+        "value" : "*"
+    } ]
+    }, {
+      "source" : "**/*.@(jpg|jpeg|gif|png)",
+      "headers" : [ {
+      "key" : "Cache-Control",
+      "value" : "max-age=7200"
+      } ]
+    }]
+}
