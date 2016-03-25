@@ -58,7 +58,7 @@
     "react-addons-update": "^0.14.0",
     "react-dom": "^0.14.0",
     "react-dropzone": "^3.3.2",
-    "react-infinite": "^0.7.1",
+    "react-infinite": "^0.7.3",
     "react-joyride": "^1.0.5",
     "react-markdown": "^2.0.1",
     "react-motion": "^0.4.2",
