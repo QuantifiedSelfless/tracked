@@ -1,0 +1,14 @@
+{
+  "eventid001": {
+    "description": "You downloaded a bunch of articles",
+    "type": "in",
+    "createdAt": 1460150135562,
+    "company": "cnn"
+  },
+  "eventid002": {
+    "description": "Your data is sold for $5",
+    "type": "out",
+    "createdAt": 1460150135543,
+    "company": "cnn"
+  }
+}

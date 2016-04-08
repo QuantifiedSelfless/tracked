@@ -4,6 +4,7 @@
   "description": "QSelf News Reader",
   "main": "index.js",
   "scripts": {
+    "serve": "firebase serve",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-app": "webpack --config webpack.production.config.js --progress --profile --colors"
   },
