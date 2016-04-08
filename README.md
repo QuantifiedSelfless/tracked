@@ -11,4 +11,4 @@ Amelia's screen
 http://localhost:5000/amelia
 
 Guest's screen
-http://localhost:5000/guest
+http://localhost:5000/guest?userid=xxxxx
