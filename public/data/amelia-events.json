@@ -1,14 +1,50 @@
 {
   "eventid001": {
-    "description": "You downloaded a bunch of articles",
-    "type": "in",
+    "description": "Don DeClaire's cooke was updated.",
+    "type": "out",
     "createdAt": 1460150135562,
     "company": "cnn"
   },
   "eventid002": {
-    "description": "Your data is sold for $5",
+    "description": "An ad was bought for Don DeClaire for $.35",
     "type": "out",
     "createdAt": 1460150135543,
     "company": "cnn"
-  }
+  },
+  "eventid003": {
+    "description": "An ad was downloaded for Prana Yoga.",
+    "type": "in",
+    "createdAt": 1460150135543,
+    "company": "cnn"
+  },
+  "eventid004": {
+    "description": "Don DeClaire's cooke was updated.",
+    "type": "out",
+    "createdAt": 1460150135562,
+    "company": "cnn"
+  },
+  "eventid005": {
+    "description": "An ad was bought for Don DeClaire for $.15",
+    "type": "out",
+    "createdAt": 1460150135543,
+    "company": "cnn"
+  },
+  "eventid006": {
+    "description": "An ad was downloaded for Woodland Resorts.",
+    "type": "in",
+    "createdAt": 1460150135543,
+    "company": "cnn"
+  },
+  "eventid007": {
+    "description": "An ad was bought for /guest/ for $.04.",
+    "type": "out",
+    "createdAt": 1460150135543,
+    "company": "cnn"
+  },
+  "eventid008": {
+    "description": "An ad was downloaded for DesignCraft Life Logger.",
+    "type": "in",
+    "createdAt": 1460150135543,
+    "company": "cnn"
+  },
 }
