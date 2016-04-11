@@ -1,12 +1,30 @@
 {
   "eventid001": {
-    "description": "You [Guest] downloaded a bunch of articles",
+    "description": "You downloaded articles from your feed",
     "type": "in",
     "createdAt": 1460150135562,
     "company": "cnn"
   },
   "eventid002": {
-    "description": "Your data is sold for $5",
+    "description": "You said you wanted to read: 'How to keep our water clean'",
+    "type": "out",
+    "createdAt": 1460150135543,
+    "company": "cnn"
+  },
+  "eventid003": {
+    "description": "Your cookie was updated with 35 trackers",
+    "type": "out",
+    "createdAt": 1460150135543,
+    "company": "cnn"
+  },
+  "eventid004": {
+    "description": "You said you wanted to read an article suggested by Martha Stewart",
+    "type": "out",
+    "createdAt": 1460150135543,
+    "company": "cnn"
+  },
+  "eventid005": {
+    "description": "Your cookie and Martha's cookie were updated with 15 trackers",
     "type": "out",
     "createdAt": 1460150135543,
     "company": "cnn"
