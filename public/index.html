@@ -11,5 +11,12 @@
   <body>
     <div id="react"></div>
     <script src="/js/qself-news-app.js"></script>
+    <script src="/js/socketio.js"></script>
+    <script>
+      var socket = io.connect('http://localhost:7000')
+      socket.on('rfid', function(data){
+        setTimeout(function() { window.location = "http://localhost:8000"}, 2000)
+      })
+    </script>
   </body>
 </html>
