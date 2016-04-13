@@ -31,11 +31,21 @@ $ npm start
 
 http://localhost:3000/amelia
 
-http://localhost:3000/guest
+http://localhost:3000/guest?userid=12345
 
 A development version of the app is served at localhost post 3000. Changes
 to code will trigger automatic rebuild, and the app will try to reload itself
 automatically too in the browser.
+
+A special user id 'test12345' is hard-coded to NOT connect to the backend
+server to help with testing.
+
+If you do,
+
+http://localhost:3000/guest?userid=test12345
+
+it will load data from `/data/guest-messages.json` rather than from
+`quantifiedselfbackend`.
 
 # Build
 
@@ -62,8 +72,6 @@ bundled as a part of firebase-tools. It does url rewrite to enable routing.
 See `firebase.json` for the rewrite rules.
 
 
-# TODOs
-
-[ ] Support guest id http://localhost:3000/guest?userid=XXXX
+[x] Support guest id http://localhost:3000/guest?userid=XXXX
 [ ] Test connection with the data processor
 [ ] Better styling
