@@ -38,14 +38,17 @@ to code will trigger automatic rebuild, and the app will try to reload itself
 automatically too in the browser.
 
 A special user id 'test12345' is hard-coded to NOT connect to the backend
-server to help with testing.
-
-If you do,
+server to help with testing. If you do,
 
 http://localhost:3000/guest?userid=test12345
 
 it will load data from `/data/guest-messages.json` rather than from
 `quantifiedselfbackend`.
+
+For all other user ids, it will attempt to load data from
+
+https://quantifiedselfbackend.local/tracked_processor/tracking?userid=${userid}
+
 
 # Build
 
