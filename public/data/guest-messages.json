@@ -1,14 +1,11 @@
 {
-    "messageid001": {
-    "Suggestion": "Kathy Griffin wants to tell you about the US water shortage",
-    "type": "in",
-    "createdAt": 1460150135562,
-    "company" : "designcraft"
-  },
-  "messageid002": {
-    "Suggestion": "Jon Bon Jovi wants to share with you about his new haircut.",
-    "type": "in",
-    "createdAt": 1460150135562,
-    "company" : "designcraft"
-  }
+  "status": 200,
+  "data": {
+    "messages": ["Amani Eddins wants you to check out some big news",
+      "Marina Kogan wants to tell you about an important update",
+      "Abhishek Narula wants to share with you a big update in life",
+      "Ryan Berry has a tweet you may want to see!",
+      "Facebook has some updates for you about The San Francisco Globe"
+      ]
+    }
 }
