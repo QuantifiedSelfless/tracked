@@ -2,31 +2,7 @@
   "eventid001": {
     "description": "You downloaded articles from your feed",
     "type": "in",
-    "createdAt": 1460150135562,
-    "company": "designcraft"
-  },
-  "eventid002": {
-    "description": "You said you wanted to read: 'How to keep our water clean'",
-    "type": "out",
-    "createdAt": 1460150135543,
-    "company": "designcraft"
-  },
-  "eventid003": {
-    "description": "Your cookie was updated with 35 trackers",
-    "type": "out",
-    "createdAt": 1460150135543,
-    "company": "designcraft"
-  },
-  "eventid004": {
-    "description": "You said you wanted to read an article suggested by Martha Stewart",
-    "type": "out",
-    "createdAt": 1460150135543,
-    "company": "designcraft"
-  },
-  "eventid005": {
-    "description": "Your cookie and Martha's cookie were updated with 15 trackers",
-    "type": "out",
-    "createdAt": 1460150135543,
+    "createdAt": -5,
     "company": "designcraft"
   }
 }
