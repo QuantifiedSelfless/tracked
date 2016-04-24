@@ -1,5 +1,5 @@
 #!/bin/bash
-port=5050
+port=5000
 
 pid=$(lsof -t -i:$port)
 if [ -z $pid ]
