@@ -17,6 +17,11 @@
       socket.on('rfid', function(data){
         setTimeout(function() { window.location = "http://localhost:8000"}, 2000)
       })
+      var globalTimer = setTimeout( function() { window.location = "http://localhost:8000"}, 15000);
+      document.getElementsByTagName("BODY")[0].addEventListener("mousemove", function(event) {
+          clearTimeout(globalTimer);
+          globalTimer = setTimeout( function() { window.location = "http://localhost:8000"}, 15000);
+        });
     </script>
   </body>
 </html>
